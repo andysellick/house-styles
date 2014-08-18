@@ -1,7 +1,9 @@
 House styles for front end development
 =========================================
 
-This is an initial set of front end files for beginning a new site build. The intent is to provide a basic starting point that will then help to shape the final front end. This should save time and effort but also provide a consistent approach to front end projects. Styles that control visual appearance such as backgrounds, shadows, etc. have deliberately been avoided.
+This is an initial set of front end files for beginning a new site build that I originally wrote for use at TS, https://github.com/tangentsnowball/house-styles. However since then I have decided to have my own, separate repo that I can make specific changes to.
+
+The intent is to provide a basic starting point that will then help to shape the final front end. This should save time and effort but also provide a consistent approach to front end projects. Styles that control visual appearance such as backgrounds, shadows, etc. have deliberately been avoided.
 
 LESS is divided into files for each element type or related group of element types. For example, form elements are in forms.less. Some more specific information:
 
