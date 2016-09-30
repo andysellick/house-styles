@@ -10,7 +10,6 @@ LESS is divided into files for each element type or related group of element typ
 - global variables such as colours and responsive breakpoints are kept in variables.less. Specific variables such as form variables should be placed at the top of the relevant LESS file, unless also required for responsive styles (see below).
 - browser specific styles should go at the bottom of the relevant LESS file.
 - grid.less contains a grid generator. Set the variables at the top of the file for the required page width, number of columns and column spacing.
-- responsive styles should be kept in a element-responsive.less file, e.g. grid-responsive.less. These files are then compiled into a separate stylesheet, styles-responsive, which is included using a media query in the HEAD element and can also be specifically served to older browsers.
 - page.less is intended to include html and body styles, along with any elements that are present on all pages, such as a page wrapping element or background class variants.
 
 The styleguide should always be included in a build, ideally accessible only to admin users via the /styleguide URL. The styleguide included here is a skeleton - it contains examples of the elements available but requires fleshing out during a build. Feel free to add additional sections to it. Specific items that must be completed are highlighted. The styleguide has several objectives:
